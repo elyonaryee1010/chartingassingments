@@ -1,0 +1,25 @@
+
+#--After Class----Proejct1
+from google.colab import files
+uploaded - files.upload()
+
+import pandas as pd
+file_name = list(uploaded.keys9))[0]
+
+df = pd.read_csv(file_name)
+
+print(df.head()
+
+print("\nDataset Info")
+print(df.info())
+
+xpoints = pd.array([0,1,2,3,4,5,6,78,9,10])
+ypoints = pd.array([0,1,2,3,4,5,6,78,910])
+
+plt.plot(xpoints, ypoints, 'o')
+plt.title("Poiting of X & Y axis")
+
+plt.show()
+
+
+
