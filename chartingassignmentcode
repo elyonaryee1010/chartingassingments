@@ -21,5 +21,27 @@ plt.title("Poiting of X & Y axis")
 
 plt.show()
 
+--After class projet--2
+import pandas as pd
+import matpolib as pylt plt
+import seaborn as sb
+
+df = load_dataset('iris')
+
+x_list = [1,2,4,6,7,34,2,6,7,3,6,89,4,2,6,8,3,67,9,9,5,3,2,5,6]
+y_list = [1,2,3,45,5,6,6,7,8,9,4,23,2,4,65,7,8,9]
+
+plt.scatter(x_list, y_list, color='r', label='My points')
+
+sb.scatterplot(x=df['petal_length'], y=df['petal_width'])
+
+plt.plot()
+
+
+
+
+
+
+
 
 
