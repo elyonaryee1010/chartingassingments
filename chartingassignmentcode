@@ -38,6 +38,53 @@ sb.scatterplot(x=df['petal_length'], y=df['petal_width'])
 plt.plot()
 
 
+--After class---Project
+
+import pandas as pd
+import matplotlib.pylt as plt
+
+df = sns.load_dataset('Financial-Dataset')
+
+print(df.head())
+
+sns.scatterplot(x='Gains', y='Loses', data=df)
+plt.show()
+
+sns.boxplot(x='Gains', y='Loses', data=df)
+plt.show()
+
+sns.histplot(x='Gains', y='Loses', kde=True)
+plt.show()
+
+sns.histplot(x='Gains', y='Loses', kd=False)
+plt.show()
+
+sns.barplot(x='Gains', y='Loses')
+plt.show()
+
+sns.barplot(x='Gains', y='Loses', hue='Gains')
+plt.show()
+
+sns.barplot(x='Gains', y='Loses', jitters=True)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
