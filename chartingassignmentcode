@@ -130,11 +130,35 @@ plt.show()
 sns.violinplot(data=df, x='species', y='sex',split=True)
 plt.show()
 
-sns.lineplot(data=df, x='sex', y='species')
+sns.lineplot(data=df, x='sex', y='spec
+imies')
 plt.show()
 
 sns.joinplot(data-df, x='sex', y='species')
 plt.show()
+
+
+#--fillna, dropna,
+import seaborn as sns
+import pandas as pd
+import matplotlib.plt plyt
+
+df = read_csv('countplot_csv')
+
+df.head())
+df.info())
+
+sns.pairplot(x='employers', y='employees')
+plt.show()
+
+sns.lineplot(x='employers', y='employees')
+plt.show()
+
+sns.boxplot(x='employers', y='employees')
+plt.show()
+
+df.dropna(how="any")
+df.fillna(methods = "bfill")
 
 
 
