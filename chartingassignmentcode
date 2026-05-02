@@ -160,6 +160,8 @@ plt.show()
 df.dropna(how="any")
 df.fillna(methods = "bfill")
 
+#After class project VWDSII
+
 
 
 import matplotlib.pylt as plt
@@ -175,9 +177,71 @@ plt.plot(x,y2, linewidth='1.5', marker='x', color='red')
 plt.title('Country Vaccination Dataset')
 plt.xlabel('Country')
 plt.ylabel('Date')
-plt.xlim('1.5')
-plt.ylim('1.5')
+plt.xlim(1,5)
+plt.ylim(1,5)
 plt.show()
+
+
+
+After class project...
+
+1----------
+
+import matplotlib.pylt as plt
+
+
+df = load_dataset('Climate change dataset')
+
+x = [1,2,3,4,5,6,7,8]
+y=[1,2,3,4,4,5,5]
+
+plt.plot(x ='Hot', y='Cold', marker='D', linestyle='dashed')
+plt.title("Hot and Cold temperatures")
+plt.xlabel("Hot")
+plt.ylabel("Cold")
+plt.xlim(5,25)
+plt.ylim(5,25)
+
+plt.plot()
+
+2----------
+import matplotlib.pylt as plt
+
+
+df = load_dataset('Climate change dataset')
+
+x = [1,2,3,4]
+y=[1,2,3,4]
+
+plt.plot(x ='City', y='Temeperature', marker='x', linestyle='dashed')
+plt.title("Hot and Cold temperatures")
+plt.xlabel("City")
+plt.ylabel("Temperature")
+plt.xlim(5,25)
+plt.ylim(5,25)
+
+plt.plot()
+
+3-----------
+import matplotlib.pylt as plt
+
+
+df = load_dataset('Climate change dataset')
+
+x = [1,2,3,4,5,6,7,8]
+y=[1,2,3,4,4,5,5]
+
+plt.plot(x ='Warm', y='Cold', marker='D', linestyle='dashed')
+plt.title("Climate if we protect better")
+plt.xlabel("Warm areas")
+plt.ylabel("Cold areas")
+plt.xlim(5,25)
+plt.ylim(5,25)
+
+plt.plot()
+
+
+
 
 
 
