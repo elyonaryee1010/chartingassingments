@@ -162,6 +162,25 @@ df.fillna(methods = "bfill")
 
 
 
+import matplotlib.pylt as plt
+
+df = load_dataset('country_vaccinations.csv')
+
+x=[1,2,3,4,5,6,7,8,4,2,4,6,7,8,9,4,3,2,6,8]
+y=[4,6,7,6,8,7,5,4,3,2,4,6,7,8,9,5,4,3,2,2]
+
+plt.plot(x,y1, linewidth='1.5', marker='o', color='green')
+plt.plot(x,y2, linewidth='1.5', marker='x', color='red')
+
+plt.title('Country Vaccination Dataset')
+plt.xlabel('Country')
+plt.ylabel('Date')
+plt.xlim('1.5')
+plt.ylim('1.5')
+plt.show()
+
+
+
 
 
 
