@@ -240,6 +240,27 @@ plt.ylim(5,25)
 
 plt.plot()
 
+#-----
+import matplotlib.pylt as plt
+
+df = read.csv('population_data')
+
+
+countries = list(data.keys())
+pop_num = list(data.values())
+
+plt.figure{'India': 23, 'China':24, 'United States', 25, 'Brazil', 26, 'Nigeria', 27}
+plt.bar(countries, values, color='red', width='1.0')
+
+plt.title("Population of the 5 most populous countries in the world")
+plt.xlabel("Countries")
+plt.ylabel("Population number")
+plt.xticks(rotation=56)
+
+plt.show()
+
+
+
 
 
 
