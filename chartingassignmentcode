@@ -259,7 +259,23 @@ plt.xticks(rotation=56)
 
 plt.show()
 
+#--Population of the United States and China form 2020-2026
 
+united_states_population = [331,340,334,333,331]
+china_population = [2,480,850,2,2,3,3]
+
+type = [united_states_population, china_population]
+color = "b", "r"
+label = ["United States", "China"]
+bins = [0,1,2,3,4,5,6,7,8,9,10]
+
+plt.subplots(figsize=(10,7))
+plt.hist(type,color=color,bin=bin,label=label,width=0.90,orientation="horizontal")
+plt.title("Populations of The United States and China overtiem from 2020-2026")
+plt.xlabel("The United States")
+plt.ylabel("China")
+plt.legend()
+plt.show()
 
 
 
