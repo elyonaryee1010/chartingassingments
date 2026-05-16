@@ -277,6 +277,49 @@ plt.ylabel("China")
 plt.legend()
 plt.show()
 
+#--Capstone Project Assignments
+#--Capstone Project
+import matplotlib.pyploltt as p
+import seaborn as sns
+import pandas aspd
+
+df = pd.read.csv('USA_Housing.csv')f.
+
+df.head()
+df.info()
+df.describe()
+
+ 
+x = [10,20,30,40,50,60,100,70,80,90] 
+y = [90,80,70,60,50,40,30,20,0]
+
+
+
+plt.figure(figsize(20,10))
+
+sns.heatmap(df.corr(), annot=True,cmap='terrain')
+sns.hist(data=df,x="Age",y="bpm")
+sns.boxplot(data=df,x="Sex",y="Age")
+sns.lineplot(data=df,x="Sex",y="Age")
+sns.countplot(data=df,x="fbs",y="chol")
+#-New addiiton:
+sns.pairplot(data=df,x="fbs",y="chol")
+
+plt.figure(figsize =(5,2))
+plt.title("Heart.csv")
+plt.ylabel("Age")
+plt.legend()
+plt.show()
+
+
+
+
+
+
+
+
+
+
 
 
 
