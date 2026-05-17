@@ -311,6 +311,45 @@ plt.ylabel("Age")
 plt.legend()
 plt.show()
 
+ean_age = np.mean(data['Age'].mean())
+print("Mean:", mean_age)
+#==Statistics 1
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+data = pd.read_csv('Titanic_Dataset')
+
+print(data.head())
+print(data.info())
+
+mean_age = np.mean(data['Age'].mean())
+print("Mean:",mean_age)
+
+median_age = np.mean(data['Age'].median())
+print("Median:",median_age)
+
+mode_age = np.mode(data['Age'].mode())
+print("Mode:",mode_age)
+
+mean_class = np.mean(data['Class'].mean())
+print("Mean:",mean_age)
+
+median_class = np.mean(data['Class'].median())
+print("Mean:",median_age)
+
+mode_class = np.mode(data['Class'].mode())
+print("Mean:",mode_age)
+
+mean_survival = np.mean(data['Survival'].mean())
+print("Mean:", mean_survival)
+
+median_survival = np.median(data['Survival'].median())
+print("Mean:", median_survival)
+
+mode_survival = np.mode(data['Survival'].mode())
+print("Mode:", mode_survival))
+
 
 
 
