@@ -350,6 +350,35 @@ print("Mean:", median_survival)
 mode_survival = np.mode(data['Survival'].mode())
 print("Mode:", mode_survival))
 
+#--DATA DISTRIBUTION MEASURES AFTER CLASS PROJECT
+
+import matplotlib.pyplot as plt
+import seaborn as sn
+import pandas as pd
+import numpy as np
+
+data = pd.read_csv('iris')
+
+data.head(5)
+data.info()
+#Finding the mean
+mean = np.mean(data['iris').mean()
+print("Mean:", mean)
+
+#Finding the median
+median = np.median(data['iris').median()
+print("Median:", median)
+#Finding the mode
+mode = np.mode(data['iris').mode()
+print("Mean:", mean)
+sns.histogram(data['iris']), color='green', edgecolors='black')
+sns.pairplot(data['iris']),color='purple',edgecolors='red')
+sns.lineplot(data['iris']),color='yellow', edgecolors='navy')
+sns.boxplot(data['iris']),color='orange', edgecolors='blue')
+
+
+plt.show()
+
 
 
 
