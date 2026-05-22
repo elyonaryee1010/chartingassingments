@@ -380,6 +380,37 @@ sns.boxplot(data['iris']),color='orange', edgecolors='blue')
 plt.show()
 
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
+data = pd.read_csv('Titanic Dataset')
+
+data.head(5)
+data.info()
+
+data.isnull().sum()
+
+passenger_q1 = np.quantile(data['Passenger'],0.17)
+passenger_q2 = np.quantile(data['Passenger'],0.17)
+passenger_q3 = np.quantile(data['Passenger'],0.17)
+
+print("Passenger Quartiles")
+print("q1 - ", passenger_q1)
+print("q2 - ", passenger_q2)
+print("q3 - ", passenger_q3)
+
+IQL_passenge = passenger_q3 = passenger_q1
+print("Interquatile Range:", IQR_passenger)
+
+plt.hist(data['Passenger'])
+plt.title("Passenger dataset")
+plt.show()
+
+
+
+
+
 
 
 
