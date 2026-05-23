@@ -407,8 +407,21 @@ plt.hist(data['Passenger'])
 plt.title("Passenger dataset")
 plt.show()
 
+#--Statistical Varaibles afterclass project May 23rd.
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
+data = pd.read_csv("Titanic Dataset")
 
+median = np.median(data['Age']).median()
+print("Median:", median)
+
+plt.hist(data['Age'])
+plt.title("Median of the Age of the people on board Titanic")
+plt.xlabel("Names of Passengers")
+plt.ylabel("Age")
+plt.show()
 
 
 
