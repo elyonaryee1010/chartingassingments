@@ -422,6 +422,29 @@ plt.title("Median of the Age of the people on board Titanic")
 plt.xlabel("Names of Passengers")
 plt.ylabel("Age")
 plt.show()
+#Data Transformation and Association - After Class Project
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
+data = pd.read_csv('Titanic_Dataset.csv')
+
+data.head(5)
+data.info()
+
+sns.boxplot(x="Age", y="Passenger Name",label=label,bins=bins)
+sns.pairplot(x="Age", y="Passenger Name",label=label,bins=bins)
+sns.lineplot(x="Age", y="Passenger Name",label=label,bins=bins)
+plt.scatter(x="Age", y="Passenger Name", color='g', edgecolor='black')
+plt.title("Titanic Survival Prediction")
+plt.xlabel("Age")
+plt.ylabel("Passenger Name")
+plt.show()
+
+association_categorical = plt.crosstab(data['Age'], data['Passenger Name']
+print(association_categorical)
+
+
 
 
 
