@@ -445,8 +445,26 @@ association_categorical = plt.crosstab(data['Age'], data['Passenger Name']
 print(association_categorical)
 
 
+#Exploratory Data Analysis After Class Project
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 
+df = read_csv("Iris Dataset.csv")
 
+df.head(5)
+df.info()
+df.describe()
+
+sns.pairplot(x="Id", y="Species", hue=data['SepalLengthCm'], edgecolor='black', color='g')
+sns.countplot(x = "Species", y="Id", hue=data['SepalWidthCm'], edgecolor='red', color='r')
+sns.boxplot(figsize=(13,5), hue=data['SepalWidthCm'],edgecolor='purple',color='r', y= data['Species'])
+
+plt.scatter(hue=data['Species'], marker="^",color='red', edgecolor='purple')
+plt.title("Iris Dataset.csv")
+plt.xlabel("SepalWidthCm")
+plt.ylabel("SepalLengthCm")
+plt.show()
 
 
 
