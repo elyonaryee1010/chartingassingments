@@ -468,8 +468,42 @@ plt.show()
 
 
 
+==Probability Assignment==
+user_input = input("Enter the number 6:")
 
-
+def probability_of_six():
+    dice_numbers = ['1','2','3','4','5','6']
+    user_input = len(dice_numbers)
+    print("1/",user_input)
+    
+probability_of_six()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
