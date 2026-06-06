@@ -479,7 +479,89 @@ def probability_of_six():
 probability_of_six()
     
     
+    #After Class Project
+
+
+#After Class Project
+print("1. A = Getting a Head on a coin toss, B = Getting a Tail on the same coin toss")
+print("Answer: dependent & Mutually exclusive")
+
+
+print("2. A = Rolling an even number on a die, B = Rolling a number greater than 3")
+print("Answer: dependent &  not Mutually EXCLUSIVE")
+
+
+print("3. A = First card drawn is an Ace, B = Second card drawn is an Ace (without replacement)")
+
+print("Dependent & Not Mutually Exclusive")
+
+
+
+print("4. A = Getting a Head on the first coin toss, B = Getting a Head on the second coin toss")
+print("Independent & Not Mutually Exclusive")
+
+print("5. A = Rolling a 2 on a die, B = Rolling a 5 on the same die")
+print("dependent & Mutually Exclusive")
+
+print("6. A = Drawing a King from a deck of cards, B = Drawing a Heart from the same deck")
+print("Independent & Not Mutually Exclusive")
+
+print("7. A = Selecting a male student, B = Selecting a female student")
+print("Depdenent & Mutually Exclusive")
+
+print("8. A = First die shows 6, B = Second die shows 6")
+print("Independent & Not Mutually Exclusive")
+
+print("9. A = Drawing a red card, B = Drawing a Queen")
+print("inDepdennet  & Not Mutually Exclusive")
+
+print("10. A = Getting an odd number on a die, B = Getting a number less than 4")
+print("dependent & not mutually exclsuive")
+
+print("11. A = It rains today, B = The ground is wet today")
+print("Dependent & Not mutually Exclusive")
+print("12. A = Choosing a mango from a basket, B = Choosing a banana from the same draw")
+print("dependent & Mutually Exclusive")
+
+print("13. A = Getting a sum of 7 on two dice, B = First die shows 3")
+print("Indepdent & not Mutually Exclusive")
+
+print("14. A = Drawing a card that is a Spade, B = Drawing a card that is an Ace")
+print("Indepdent & not Mutually Exclusive")
+
+print("15. A = Selecting a student who plays cricket, B = Selecting a student who plays football")
+print("dependdent & Not Mutually Exclusive")
+
+print("16. A = Getting a Head on a coin toss, B = Rolling a 6 on a die")
+print("Indepdent & Not Mutually Exclusive")
+
+print("17. A = Drawing two red balls from a bag without replacement")
+print("Dependent & Not Mutually Exclusive")
+
+print("18. A = Selecting a person who is a teacher, B = Selecting a person who is a woman")
+print("independent & Not Mutually Exclusive")
+
+print("19. A = Getting a number divisible by 2 on a die, B = Getting a number divisible by 3 on the same die")
+
+print("Indepdenent & Mutually Exclusive")
+
+print("20. A = Choosing a card that is a Face Card, B = Choosing a card that is a King.")
+print("dependent & Not Mutually Exclusive")
     
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
